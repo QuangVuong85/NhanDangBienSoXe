@@ -75,6 +75,18 @@ namespace NhậnDiệnBiểnSốXe.Models
             }
             return false;
         }
+        public TickerInfo GetTickerInfoByIdCard(string idCard)
+        {
+            //  TickerInfo tickerInfo = new TickerInfo();
+            foreach (TickerInfo tk in this.listTicker)
+            {
+                if (tk.tickerId == idCard)
+                {
+                    return tk;
+                }
+            }
+            return null;
+        }
 
         public void updateListTicker(List<TickerInfo> _listTicker)
         {

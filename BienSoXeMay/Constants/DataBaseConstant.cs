@@ -7,6 +7,6 @@ namespace NhậnDiệnBiểnSốXe.Constants
 {
     class DataBaseConstant
     {
-        public const string CHUOI_KET_NOI = @"Data Source = DESKTOP-3AT53D1;Initial Catalog = BienSoXe; Integrated Security = True";
+        public const string CHUOI_KET_NOI = @"Data Source = DINHQUANGVUONG;Initial Catalog = BienSoXe; Integrated Security = True";
     }
 }

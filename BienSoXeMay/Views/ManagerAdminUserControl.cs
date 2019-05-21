@@ -10,7 +10,7 @@ using NhậnDiệnBiểnSốXe.Models;
 
 namespace NhậnDiệnBiểnSốXe.Views
 {
-    public partial class ManagerAdminUserControl : UserControl,IAdminsBDX
+    public partial class ManagerAdminUserControl : UserControl, IAdminsBDX
     {
         AdminsManager adminsManagerInstance = AdminsManager.getAdminsManagerInstance();
         List<UserInfo> listAdmin;
@@ -21,6 +21,22 @@ namespace NhậnDiệnBiểnSốXe.Views
             listAdmin = adminsManagerInstance.getListAdmin();
             adminsManagerInstance.addObserver(this);
             adminsListView.DataSource = listAdmin;
+            
+            // fill size column
+            adminsListView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            // hide column
+            adminsListView.Columns[2].Visible = false;
+            adminsListView.Columns[3].Visible = false;
+
+            // name column
+            adminsListView.Columns[0].HeaderText = "Mã tài khoản";
+            adminsListView.Columns[1].HeaderText = "Tên tài khoản";
+            adminsListView.Columns[4].HeaderText = "Quyền truy cập";
+            adminsListView.Columns[5].HeaderText = "Trạng thái hoạt động";
+
+            //
+
         }
         public void UpdateListAdmin()
         {
@@ -30,7 +46,7 @@ namespace NhậnDiệnBiểnSốXe.Views
         private void button1_Click(object sender, EventArgs e)
         {
             UserInfo userInfo = new UserInfo();
-            
+
             userInfo.userName = this.txtUsername.Text;
             string password = this.txtPassword.Text;
             int role = 1;
@@ -81,10 +97,12 @@ namespace NhậnDiệnBiểnSốXe.Views
 
         private void adminsListView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            int numrow;
-            numrow = e.RowIndex;
-            Index = numrow;
-            txtUsername.Text = adminsListView.Rows[numrow].Cells[1].Value.ToString();
+            try
+            {
+                int numrow;
+                numrow = e.RowIndex;
+                Index = numrow;
+                txtUsername.Text = adminsListView.Rows[numrow].Cells[1].Value.ToString();
                 cbxRole.Text = "User";
                 cbxIsActive.Text = "Không hoạt động";
                 if (adminsListView.Rows[numrow].Cells[2].Value.ToString() == "1")
@@ -96,6 +114,11 @@ namespace NhậnDiệnBiểnSốXe.Views
                 {
                     cbxIsActive.Text = "Đang hoạt động";
                 }
+            }
+            catch (Exception)
+            {
+                return;
+            }
         }
     }
 }

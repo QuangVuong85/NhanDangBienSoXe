@@ -83,12 +83,8 @@ namespace NhậnDiệnBiểnSốXe.Detection
                                 color2.Draw(contours.BoundingRectangle, new Bgr(0, 255, 0), 2);
                                 bi2.Draw(contours, new Gray(255), -1);
                                 listR.Add(contours.BoundingRectangle);
-
-
                             }
-
                             contours = contours.HNext;
-
                         }
                     }
                     //IntPtr a = color_b.Ptr;

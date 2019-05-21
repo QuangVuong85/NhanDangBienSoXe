@@ -155,5 +155,50 @@ namespace NhậnDiệnBiểnSốXe.DataConnection
                 return false;
             }
         }
+        public TickerInfo ticker(string id, string biensoVao)
+        {
+            TickerInfo ticker = new TickerInfo();
+            string query = "select * from tbl_VeThang where id = '" + id + "'";
+            try
+            {
+                openketnoi();
+                SqlCommand cmd = new SqlCommand(query, con);
+                SqlDataReader reader = cmd.ExecuteReader();
+                reader.Read();
+                string biensoDK = reader["bienso"].ToString();
+                if (biensoDK != null && biensoDK != "")
+                {
+                    if (biensoDK == biensoVao)
+                    {
+                        ticker.tickerId = reader["id"].ToString();
+                        ticker.bienso = biensoDK;
+                        ticker.type = int.Parse(reader["type"].ToString());
+                        //ticker.userName = username;
+                        //userInfo.role = int.Parse(reader["role"].ToString());
+                        //userInfo.isActive = int.Parse(reader["isActive"].ToString());
+                        TickerInforManager updateTickerInfo = TickerInforManager.getTickerInfoManagerInstance();
+                        updateTickerInfo.updateTickerInfo(ticker);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Biển số không khớp với biển số đăng ký");
+
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("ID Thẻ không tồn tại");
+
+                }
+                dongketnoi();
+            }
+            // Mã thẻ sai
+            catch
+            {
+                dongketnoi();
+               // MessageBox.Show("ID Thẻ không tồn tại");
+            }
+            return ticker;
+        }
     }
 }

@@ -22,6 +22,8 @@ namespace NhậnDiệnBiểnSốXe.Views
             listTicker = tickersManagerInstance.getListTicker();
             tickersManagerInstance.addObserver(this);
             tickersListView.DataSource = listTicker;
+
+            tickersListView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; 
         }
         public void UpdateListTicker()
         {
@@ -89,6 +91,11 @@ namespace NhậnDiệnBiểnSốXe.Views
         }
         private void tickersListView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            
+        }
+
+        private void tickersListView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
             int numrow;
             numrow = e.RowIndex;
             Index = numrow;
@@ -111,6 +118,5 @@ namespace NhậnDiệnBiểnSốXe.Views
             DateTime dt = DateTime.ParseExact(tickersListView.Rows[numrow].Cells[6].Value.ToString(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
             dateDeadline.Value = dt;
         }
-
     }
 }

@@ -62,13 +62,14 @@ namespace NhậnDiệnBiểnSốXe
         }
         private void quảnLýXeVàoBãiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CameraForm cameraIn = new CameraForm();
+            CameraInForm cameraIn = new CameraInForm();
             cameraIn.Show();
 
         }
         private void quảnLýXeRaBãiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            CameraOutForm cameraOut = new CameraOutForm();
+            cameraOut.Show();
         }
         private void thôngTinXeRaVàoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -81,6 +82,5 @@ namespace NhậnDiệnBiểnSốXe
         {
             this.checkUserInfo();
         }
-
     }
 }

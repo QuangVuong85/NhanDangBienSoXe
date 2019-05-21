@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.quảnLýVéXeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýXeVàoBãiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýXeRaBãiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,33 +41,34 @@
             // quảnLýVéXeToolStripMenuItem
             // 
             this.quảnLýVéXeToolStripMenuItem.Name = "quảnLýVéXeToolStripMenuItem";
-            this.quảnLýVéXeToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.quảnLýVéXeToolStripMenuItem.Size = new System.Drawing.Size(109, 24);
             this.quảnLýVéXeToolStripMenuItem.Text = "Quản lý vé xe";
             this.quảnLýVéXeToolStripMenuItem.Click += new System.EventHandler(this.quảnLýVéXeToolStripMenuItem_Click);
             // 
             // quảnLýXeVàoBãiToolStripMenuItem
             // 
             this.quảnLýXeVàoBãiToolStripMenuItem.Name = "quảnLýXeVàoBãiToolStripMenuItem";
-            this.quảnLýXeVàoBãiToolStripMenuItem.Size = new System.Drawing.Size(115, 20);
+            this.quảnLýXeVàoBãiToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
             this.quảnLýXeVàoBãiToolStripMenuItem.Text = "Quản lý xe vào bãi";
             this.quảnLýXeVàoBãiToolStripMenuItem.Click += new System.EventHandler(this.quảnLýXeVàoBãiToolStripMenuItem_Click);
             // 
             // quảnLýXeRaBãiToolStripMenuItem
             // 
             this.quảnLýXeRaBãiToolStripMenuItem.Name = "quảnLýXeRaBãiToolStripMenuItem";
-            this.quảnLýXeRaBãiToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
+            this.quảnLýXeRaBãiToolStripMenuItem.Size = new System.Drawing.Size(132, 24);
             this.quảnLýXeRaBãiToolStripMenuItem.Text = "Quản lý xe ra bãi";
             this.quảnLýXeRaBãiToolStripMenuItem.Click += new System.EventHandler(this.quảnLýXeRaBãiToolStripMenuItem_Click);
             // 
             // thôngTinXeRaVàoToolStripMenuItem
             // 
             this.thôngTinXeRaVàoToolStripMenuItem.Name = "thôngTinXeRaVàoToolStripMenuItem";
-            this.thôngTinXeRaVàoToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
+            this.thôngTinXeRaVàoToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
             this.thôngTinXeRaVàoToolStripMenuItem.Text = "Thông tin xe ra vào";
             this.thôngTinXeRaVàoToolStripMenuItem.Click += new System.EventHandler(this.thôngTinXeRaVàoToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.quảnLýAdminToolStripMenuItem,
             this.quảnLýVéXeToolStripMenuItem,
@@ -75,26 +77,30 @@
             this.thôngTinXeRaVàoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(974, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1410, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // quảnLýAdminToolStripMenuItem
             // 
             this.quảnLýAdminToolStripMenuItem.Name = "quảnLýAdminToolStripMenuItem";
-            this.quảnLýAdminToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
+            this.quảnLýAdminToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
             this.quảnLýAdminToolStripMenuItem.Text = "Quản lý Admin";
             this.quảnLýAdminToolStripMenuItem.Click += new System.EventHandler(this.quảnLýAdminToolStripMenuItem_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 588);
+            this.ClientSize = new System.Drawing.Size(1410, 724);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Quản lý xe ra vào Big C";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

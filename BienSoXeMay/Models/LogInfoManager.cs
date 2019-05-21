@@ -12,12 +12,15 @@ namespace NhậnDiệnBiểnSốXe.Models
     }
     class LogInfo
     {
+        public string id { get; set; }
         public string idve { get; set; }
-        public int time_In { get; set; }
-        public int time_Out { get; set; }
-        public int rate { get; set; }
-        public Image image_In { get; set; }
-        public Image image_Out { get; set; }
+        public string time_In { get; set; }
+        public string time_Out { get; set; }
+        public string biensovao { get; set; }
+        public string biensora { get; set; }
+        public string hinhanhvao { get; set;}
+        public byte[] anhvao { get; set; }
+        public int type { get; set; }
     }
     class LogInfoManager
     {

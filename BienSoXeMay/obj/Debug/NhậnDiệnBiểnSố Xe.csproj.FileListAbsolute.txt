@@ -20,9 +20,6 @@ C:\Users\admin\Downloads\Auto_parking\Auto_parking\obj\Debug\NhậnDiệnBiểnS
 C:\Users\admin\Downloads\Auto_parking\Auto_parking\obj\Debug\Auto_parking.exe
 C:\Users\admin\Downloads\Auto_parking\Auto_parking\obj\Debug\Auto_parking.pdb
 C:\Users\admin\Downloads\Auto_parking\Auto_parking\obj\Debug\NhậnDiệnBiểnSốXe.CameraForm.resources
-C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\Auto_parking.exe.config
-C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\Auto_parking.exe
-C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\Auto_parking.pdb
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\AForge.dll
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\ZedGraph.dll
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\AForge.Video.xml
@@ -33,15 +30,45 @@ C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\Emgu.CV.UI.xml
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\Emgu.Util.xml
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\AForge.xml
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csprojAssemblyReference.cache
-C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.CameraForm.resources
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.MainForm.resources
-C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\Auto_parking.Properties.Resources.resources
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csproj.GenerateResource.cache
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csproj.CopyComplete
-C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\Auto_parking.exe
-C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\Auto_parking.pdb
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.LoginUserControl.resources
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.ManagerAdminUserControl.resources
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.ManagerLogUserControl.resources
 C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.ManagerTickerUserControl.resources
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.CameraInForm.resources
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.CameraOutForm.resources
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\NhậnDiệnBiểnSốXe.exe.config
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\NhậnDiệnBiểnSốXe.exe
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\bin\Debug\NhậnDiệnBiểnSốXe.pdb
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Properties.Resources.resources
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.exe
+C:\Users\admin\source\repos\BienSoXeMay\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.pdb
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\NhậnDiệnBiểnSốXe.exe.config
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\NhậnDiệnBiểnSốXe.exe
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\NhậnDiệnBiểnSốXe.pdb
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\AForge.dll
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\ZedGraph.dll
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\AForge.Video.xml
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\AForge.Video.DirectShow.xml
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\Emgu.CV.xml
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\Emgu.CV.ML.xml
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\Emgu.CV.UI.xml
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\Emgu.Util.xml
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\bin\Debug\AForge.xml
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csprojAssemblyReference.cache
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.CameraInForm.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.CameraOutForm.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.MainForm.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Properties.Resources.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.LoginUserControl.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.ManagerAdminUserControl.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.ManagerLogUserControl.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.Views.ManagerTickerUserControl.resources
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csproj.GenerateResource.cache
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csproj.CoreCompileInputs.cache
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSố Xe.csproj.CopyComplete
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.exe
+F:\Học Tập\Ky 6\TT Nhom\BTL\NhanDangDienSoXe.git\trunk\BienSoXeMay\obj\Debug\NhậnDiệnBiểnSốXe.pdb
